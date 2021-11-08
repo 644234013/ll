@@ -1,0 +1,10 @@
+void ReadPoint(float point[ ]){
+int i=0;
+float sum=0.0;
+for(int i = 1;i <= Students; i=i+1){
+printf("enter student no.%d score:",i);
+scanf("%f",&point[i]);
+sum = sum + point[i];
+ }
+printf("Average is %.2f",sum/Students); 
+}
